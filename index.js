@@ -7,9 +7,10 @@ app.listen(port, async () => {
     const data = new Date();
     console.log(`Servidor iniciado na porta ${port} em: ${data}`);
 
-    const conexao = await pool.getConnection();
+    // const conexao = await pool.getConnection();
 
-    console.log(conexao.threadId);
+    // console.log(conexao.threadId);
 
-    conexao.release();
+    // conexao.release();
 })
+
